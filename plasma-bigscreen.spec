@@ -26,6 +26,7 @@ BuildRequires: cmake(KF6Svg)
 BuildRequires: cmake(KF6GlobalAccel)
 BuildRequires: cmake(KF6DBusAddons)
 BuildRequires: cmake(KF6IconThemes)
+BuildRequires: cmake(KF6Screen)
 
 BuildRequires: cmake(Plasma)
 BuildRequires: cmake(PlasmaActivities)
