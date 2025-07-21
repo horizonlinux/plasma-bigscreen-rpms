@@ -84,16 +84,7 @@ appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/*.metainfo.xml
 
 %files -f plasma-bigscreen.lang
 %license LICENSES/*
-%{_kf6_qtplugindir}/kcms/kcm_mediacenter_*.so
-%{_kf6_qmldir}/org/kde/mycroft/bigscreen/
-%{_kf6_datadir}/kpackage/genericqml/org.kde.plasma.settings/contents/ui/+mediacenter/*.qml
-%{_kf6_metainfodir}/org.kde.plasma.mycroft.bigscreen.appdata.xml
-%{_kf6_metainfodir}/org.kde.plasma.mycroft.bigscreen.metainfo.xml
-%{_kf6_datadir}/plasma/look-and-feel/org.kde.plasma.mycroft.bigscreen/
-%{_kf6_datadir}/plasma/plasmoids/org.kde.mycroft.bigscreen.homescreen/
-%{_kf6_datadir}/plasma/shells/org.kde.plasma.mycroft.bigscreen/
 %{_kf6_datadir}/sounds/plasma-bigscreen/
-%{_kf6_qtplugindir}/plasma/applets/org.kde.mycroft.bigscreen.homescreen.so
 %{_kf6_datadir}/applications/kcm_mediacenter_*.desktop
 
 %files wayland
