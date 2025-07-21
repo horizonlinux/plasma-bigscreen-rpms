@@ -64,7 +64,7 @@ Conflicts: %{name}-x11 < %{version}-%{release}
 
 
 %prep
-%autosetup -p1 -n %{name}-6.4.8
+%autosetup -p1 -n %{name}-%{version}
 
 %build
 %cmake_kf6
