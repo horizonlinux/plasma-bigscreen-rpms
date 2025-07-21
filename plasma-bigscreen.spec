@@ -23,6 +23,9 @@ BuildRequires: cmake(KF6Notifications)
 BuildRequires: cmake(KF6KIO)
 BuildRequires: cmake(KF6WindowSystem)
 BuildRequires: cmake(KF6Svg)
+BuildRequires: cmake(KF6GlobalAccel)
+BuildRequires: cmake(KF6DBusAddons)
+BuildRequires: cmake(KF6IconThemes)
 
 BuildRequires: cmake(Plasma)
 BuildRequires: cmake(PlasmaActivities)
@@ -36,6 +39,7 @@ BuildRequires: cmake(Qt6Qml)
 BuildRequires: cmake(Qt6DBus)
 BuildRequires: cmake(Qt6Network)
 BuildRequires: cmake(Qt6Multimedia)
+
 
 Requires:   %{name}-wayland = %{version}-%{release}
 Requires:   plasma-nano
