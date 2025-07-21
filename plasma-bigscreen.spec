@@ -8,9 +8,6 @@ Release:       6horizon
 License:       BSD-2-Clause and BSD-3-Clause and CC0-1.0 and GPL-2.0-or-later and CC-BY-SA-4.0
 Summary:       A big launcher giving you access to any installed apps and skills
 Url:           https://plasma-bigscreen.org/
-
-# Not currently in the plasma releases. Getting from gitlab tags.
-# Source0:       http://download.kde.org/%{stable_kf6}/plasma/%{version}/%{name}-%{version}.tar.xz
 Source0:       %{name}-%{version}.tar.gz
 
 BuildRequires: extra-cmake-modules
