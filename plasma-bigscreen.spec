@@ -83,22 +83,21 @@ desktop-file-validate %{buildroot}%{_kf6_datadir}/applications/kcm_mediacenter_{
 appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/*.metainfo.xml
 
 %files
-%{buildroot}/usr/bin/plasma-bigscreen*
-%{buildroot}/usr/lib/debug/usr/bin/plasma-bigscreen-*-6.4.80-1horizon.x86_64.debug
-%{buildroot}/usr/lib/debug/usr/lib64/qt6/plugins/plasma/applets/org.kde.bigscreen.homescreen.so-6.4.80-1horizon.x86_64.debug
-%{buildroot}/usr/lib/debug/usr/lib64/qt6/plugins/plasma/kcms/systemsettings/kcm_mediacenter_*.so-6.4.80-1horizon.x86_64.debug
-%{buildroot}/usr/lib/debug/usr/lib64/qt6/qml/org/kde/bigscreen/libbigscreenplugin.so-6.4.80-1horizon.x86_64.debug
-%{buildroot}/usr/lib64/qt6/plugins/plasma/applets/org.kde.bigscreen.homescreen.so
-%{buildroot}/usr/lib64/qt6/plugins/plasma/kcms/systemsettings/kcm_mediacenter_*.so
+%{buildroot}/usr/bin/*
+%{buildroot}/usr/lib/debug/usr/bin/*
+%{buildroot}/usr/lib/debug/usr/lib64/qt6/plugins/plasma/*
+%{buildroot}/usr/lib/debug/usr/lib64/qt6/qml/org/kde/bigscreen/*
+%{buildroot}/usr/lib64/qt6/plugins/plasma/applets/*
+%{buildroot}/usr/lib64/qt6/plugins/plasma/kcms/systemsettings/*
 %{buildroot}/usr/lib64/qt6/qml/org/kde/bigscreen/*
 %{buildroot}/usr/share/applications/*
 %{buildroot}/usr/share/metainfo/*
 %{buildroot}/usr/share/plasma/look-and-feel/org.kde.plasma.bigscreen/contents/*
-%{buildroot}/usr/share/plasma/look-and-feel/org.kde.plasma.bigscreen/metadata.json
+%{buildroot}/usr/share/plasma/look-and-feel/org.kde.plasma.bigscreen/*
 %{buildroot}/usr/share/plasma/plasmoids/org.kde.bigscreen.homescreen/contents/*
-%{buildroot}/usr/share/plasma/plasmoids/org.kde.bigscreen.homescreen/metadata.json
+%{buildroot}/usr/share/plasma/plasmoids/org.kde.bigscreen.homescreen/*
 %{buildroot}/usr/share/plasma/shells/org.kde.plasma.bigscreen/contents/*
-%{buildroot}/usr/share/plasma/shells/org.kde.plasma.bigscreen/metadata.json
+%{buildroot}/usr/share/plasma/shells/org.kde.plasma.bigscreen/*
 
 %files -f plasma-bigscreen.lang
 %license LICENSES/*
