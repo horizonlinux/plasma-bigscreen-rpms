@@ -49,7 +49,7 @@ Requires:   plasma-nano
 Summary:   Wayland support for %{name}
 BuildArch: noarch
 Requires:  %{name} = %{version}-%{release}
-Requires:  plasma-workspace-wayland >= %{version}
+Requires:  plasma-workspace-wayland >= 6.4.3
 # Transition users upgrading from F39 and before to the wayland session
 Obsoletes: %{name}-x11 < %{version}-%{release}
 Conflicts: %{name}-x11 < %{version}-%{release}
