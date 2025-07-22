@@ -41,9 +41,7 @@ BuildRequires: cmake(Qt6DBus)
 BuildRequires: cmake(Qt6Network)
 BuildRequires: cmake(Qt6Multimedia)
 
-
 Requires:   %{name}-wayland = %{version}-%{release}
-Requires:   plasma-nano
 
 %package  wayland
 Summary:   Wayland support for %{name}
