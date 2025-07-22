@@ -82,7 +82,10 @@ Conflicts: %{name}-x11 < %{version}-%{release}
 desktop-file-validate %{buildroot}%{_kf6_datadir}/applications/kcm_mediacenter_{audiodevice,bigscreen_settings,kdeconnect,wifi}.desktop
 appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/*.metainfo.xml
 
-%files
+%files -f plasma-bigscreen.lang
+%license LICENSES/*
+%{_kf6_datadir}/sounds/plasma-bigscreen/
+%{_kf6_datadir}/applications/kcm_mediacenter_*.desktop
 %{buildroot}/usr/bin/*
 %{buildroot}/usr/lib/debug/usr/bin/*
 %{buildroot}/usr/lib/debug/usr/lib64/qt6/plugins/plasma/*
@@ -98,11 +101,6 @@ appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/*.metainfo.xml
 %{buildroot}/usr/share/plasma/plasmoids/org.kde.bigscreen.homescreen/*
 %{buildroot}/usr/share/plasma/shells/org.kde.plasma.bigscreen/contents/*
 %{buildroot}/usr/share/plasma/shells/org.kde.plasma.bigscreen/*
-
-%files -f plasma-bigscreen.lang
-%license LICENSES/*
-%{_kf6_datadir}/sounds/plasma-bigscreen/
-%{_kf6_datadir}/applications/kcm_mediacenter_*.desktop
 
 %files wayland
 %{_kf6_bindir}/plasma-bigscreen-wayland
