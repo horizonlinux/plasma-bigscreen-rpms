@@ -86,21 +86,21 @@ appstream-util validate-relax --nonet %{buildroot}%{_metainfodir}/*.metainfo.xml
 %license LICENSES/*
 %{_kf6_datadir}/sounds/plasma-bigscreen/
 %{_kf6_datadir}/applications/kcm_mediacenter_*.desktop
-%{buildroot}/usr/bin/*
-%{buildroot}/usr/lib/debug/usr/bin/*
-%{buildroot}/usr/lib/debug/usr/lib64/qt6/plugins/plasma/*
-%{buildroot}/usr/lib/debug/usr/lib64/qt6/qml/org/kde/bigscreen/*
-%{buildroot}/usr/lib64/qt6/plugins/plasma/applets/*
-%{buildroot}/usr/lib64/qt6/plugins/plasma/kcms/systemsettings/*
-%{buildroot}/usr/lib64/qt6/qml/org/kde/bigscreen/*
-%{buildroot}/usr/share/applications/*
-%{buildroot}/usr/share/metainfo/*
-%{buildroot}/usr/share/plasma/look-and-feel/org.kde.plasma.bigscreen/contents/*
-%{buildroot}/usr/share/plasma/look-and-feel/org.kde.plasma.bigscreen/*
-%{buildroot}/usr/share/plasma/plasmoids/org.kde.bigscreen.homescreen/contents/*
-%{buildroot}/usr/share/plasma/plasmoids/org.kde.bigscreen.homescreen/*
-%{buildroot}/usr/share/plasma/shells/org.kde.plasma.bigscreen/contents/*
-%{buildroot}/usr/share/plasma/shells/org.kde.plasma.bigscreen/*
+/usr/bin/*
+/usr/lib/debug/usr/bin/*
+/usr/lib/debug/usr/lib64/qt6/plugins/plasma/*
+/usr/lib/debug/usr/lib64/qt6/qml/org/kde/bigscreen/*
+/usr/lib64/qt6/plugins/plasma/applets/*
+/usr/lib64/qt6/plugins/plasma/kcms/systemsettings/*
+/usr/lib64/qt6/qml/org/kde/bigscreen/*
+/usr/share/applications/*
+/usr/share/metainfo/*
+/usr/share/plasma/look-and-feel/org.kde.plasma.bigscreen/contents/*
+/usr/share/plasma/look-and-feel/org.kde.plasma.bigscreen/*
+/usr/share/plasma/plasmoids/org.kde.bigscreen.homescreen/contents/*
+/usr/share/plasma/plasmoids/org.kde.bigscreen.homescreen/*
+/usr/share/plasma/shells/org.kde.plasma.bigscreen/contents/*
+/usr/share/plasma/shells/org.kde.plasma.bigscreen/*
 
 %files wayland
 %{_kf6_bindir}/plasma-bigscreen-wayland
